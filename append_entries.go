@@ -4,7 +4,7 @@ import (
 	"io"
 	"io/ioutil"
        
-        "github.com/golang/protobug/proto"
+        "github.com/golang/protobuf/proto"
         "github.com/KamalaRamas/raft/protobuf"
 )
 
