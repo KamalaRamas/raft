@@ -3,9 +3,9 @@ package raft
 import (
 	"io"
 	"io/ioutil"
-
-	"code.google.com/p/gogoprotobuf/proto"
-	"github.com/goraft/raft/protobuf"
+       
+        "github.com/golang/protobug/proto"
+        "github.com/KamalaRamas/raft/protobuf"
 )
 
 // The request sent to a server to append entries to the log.
